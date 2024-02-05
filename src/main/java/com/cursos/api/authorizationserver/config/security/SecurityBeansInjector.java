@@ -1,5 +1,7 @@
 package com.cursos.api.authorizationserver.config.security;
 
+import com.cursos.api.authorizationserver.persistence.repository.UserRepository;
+import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
